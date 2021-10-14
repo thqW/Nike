@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="theme-color" content="#f84848"/>
+  <link rel="stylesheet" href="assets/css/index.css" type="text/css" />
+  <script src="https://kit.fontawesome.com/a81368914c.js"></script>
+  <link href="https://font.googleapis.com/css?family=Poppins:200,300,400,500,600,700&display=swap" rel="stylesheet"/>
+  <title>Nike Product Card | Practice</title>
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <!-- Background Color Gradient -->
+      <div class="bg">
+        <div class="gradients">
+          <div class="gradient second" color="blue"></div>
+          <div class="gradient" color="red"></div>
+          <div class="gradient" color="green"></div>
+          <div class="gradient" color="orange"></div>
+          <div class="gradient" color="black"></div>
+        </div>
+        <!-- Title & IMG's -->
+        <h1 class="nike">NIKE</h1>
+        <img class="logo" src="media/logo.png" alt="Logo" />
+        <a href="#" class="share"><i class="fas fa-share-alt"></i></a>
+        <img class="shoes show" src="media/blue.png" alt="" color="blue" />
+        <img class="shoes" src="media/red.png" alt="" color="red" />
+        <img class="shoes" src="media/green.png" alt="" color="green" />
+        <img class="shoes" src="media/orange.png" alt="" color="orange" />
+        <img class="shoes" src="media/black.png" alt="" color="black" />
+      </div>
+      <!-- Information -->
+      <div class="info">
+        <div class="shoesName">
+          <div>
+            <h1 class="big">Nike Zoom KD 12</h1>
+            <span class="new">new</span>
+          </div>
+          <h3 class="small">Men's running shoes</h3>
+        </div>
+        <!-- Product Info -->
+        <div class="description">
+          <h3 class="title">Product Info</h3>
+          <p class="text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere interdum neque, nec dignissim diam auctor quis. Sed.
+          </p>
+        </div>
+        <!-- Color Buttons -->
+        <div class="color-container">
+          <h3 class="title">Color</h3>
+          <div class="colors">
+          <span class="color active" primary="#2175f5" color="blue"></span>
+          <!-- @IMPORTANT
+          class="color active" is necessary, since we use it with index.js to enable the rest of the buttons
+            -->
+          <span class="color" primary="#f84848" color="red"></span>
+          <span class="color" primary="#29b864" color="green"></span>
+          <span class="color" primary="#ff5521" color="orange"></span>
+          <span class="color" primary="#444" color="black"></span>
+          <span></span>
+        </div>
+      </div>
+      <!-- Size Buttons -->
+      <div class="size-container">
+        <h3 class="title">Size</h3>
+        <div class="sizes">
+          <span class="size active">7</span>
+                    <!-- @IMPORTANT
+          class="size active" is necessary, since we use it with index.js to enable the rest of the buttons
+            -->
+          <span class="size">8</span>
+          <span class="size">9</span>
+          <span class="size">10</span>
+          <span class="size">11</span>
+        </div>
+      </div>
+      <!-- Buy Price & Add Cart -->
+      <div class="buy-price">
+        <a href="#" class="buy"><i class="fas fa-shopping-cart"></i>Add to cart</a>
+        <div class="price"><i class="fas fa-dollar-sign"></i>
+          <h1>189.99</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <script src="assets/js/index.js">
+  </script>
+</body>
+</html>
